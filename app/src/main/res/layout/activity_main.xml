@@ -10,10 +10,12 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
+        android:layout_marginStart="56dp"
         android:text="Name"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextText"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="122dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.924" />
 
     <Button
         android:id="@+id/button"
@@ -29,12 +31,12 @@
         android:id="@+id/editTextText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="108dp"
-        android:layout_marginEnd="76dp"
+        android:layout_marginTop="120dp"
         android:ems="10"
         android:inputType="text"
         android:text="Your name please"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.216"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent" />
 
